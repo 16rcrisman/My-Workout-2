@@ -8,13 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		C99DBB361CE0549200727DED /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB351CE0549200727DED /* AppDelegate.swift */; };
-		C99DBB381CE0549200727DED /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB371CE0549200727DED /* FirstViewController.swift */; };
-		C99DBB3A1CE0549200727DED /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB391CE0549200727DED /* SecondViewController.swift */; };
+		C99DBB381CE0549200727DED /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB371CE0549200727DED /* ViewController.swift */; };
+		C99DBB3A1CE0549200727DED /* EnduranceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB391CE0549200727DED /* EnduranceViewController.swift */; };
 		C99DBB3D1CE0549200727DED /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99DBB3B1CE0549200727DED /* Main.storyboard */; };
 		C99DBB3F1CE0549200727DED /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C99DBB3E1CE0549200727DED /* Assets.xcassets */; };
 		C99DBB421CE0549200727DED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C99DBB401CE0549200727DED /* LaunchScreen.storyboard */; };
 		C99DBB4D1CE0549300727DED /* My_Workout_Version_2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB4C1CE0549300727DED /* My_Workout_Version_2Tests.swift */; };
 		C99DBB581CE0549300727DED /* My_Workout_Version_2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB571CE0549300727DED /* My_Workout_Version_2UITests.swift */; };
+		C99DBB661CE054C200727DED /* MyWorkout2.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB651CE054C200727DED /* MyWorkout2.swift */; };
+		C99DBB681CE0577E00727DED /* Endurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB671CE0577E00727DED /* Endurance.swift */; };
+		C99DBB6A1CE057FE00727DED /* Strength.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB691CE057FE00727DED /* Strength.swift */; };
+		C99DBB6C1CE0582600727DED /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB6B1CE0582600727DED /* Exercise.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,8 +41,8 @@
 /* Begin PBXFileReference section */
 		C99DBB321CE0549200727DED /* My Workout Version 2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "My Workout Version 2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99DBB351CE0549200727DED /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C99DBB371CE0549200727DED /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
-		C99DBB391CE0549200727DED /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		C99DBB371CE0549200727DED /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C99DBB391CE0549200727DED /* EnduranceViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnduranceViewController.swift; sourceTree = "<group>"; };
 		C99DBB3C1CE0549200727DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C99DBB3E1CE0549200727DED /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C99DBB411CE0549200727DED /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -49,6 +53,10 @@
 		C99DBB531CE0549300727DED /* My Workout Version 2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "My Workout Version 2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C99DBB571CE0549300727DED /* My_Workout_Version_2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = My_Workout_Version_2UITests.swift; sourceTree = "<group>"; };
 		C99DBB591CE0549300727DED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C99DBB651CE054C200727DED /* MyWorkout2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyWorkout2.swift; sourceTree = "<group>"; };
+		C99DBB671CE0577E00727DED /* Endurance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endurance.swift; sourceTree = "<group>"; };
+		C99DBB691CE057FE00727DED /* Strength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strength.swift; sourceTree = "<group>"; };
+		C99DBB6B1CE0582600727DED /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +87,7 @@
 		C99DBB291CE0549200727DED = {
 			isa = PBXGroup;
 			children = (
+				C99DBB651CE054C200727DED /* MyWorkout2.swift */,
 				C99DBB341CE0549200727DED /* My Workout Version 2 */,
 				C99DBB4B1CE0549300727DED /* My Workout Version 2Tests */,
 				C99DBB561CE0549300727DED /* My Workout Version 2UITests */,
@@ -100,8 +109,11 @@
 			isa = PBXGroup;
 			children = (
 				C99DBB351CE0549200727DED /* AppDelegate.swift */,
-				C99DBB371CE0549200727DED /* FirstViewController.swift */,
-				C99DBB391CE0549200727DED /* SecondViewController.swift */,
+				C99DBB371CE0549200727DED /* ViewController.swift */,
+				C99DBB391CE0549200727DED /* EnduranceViewController.swift */,
+				C99DBB671CE0577E00727DED /* Endurance.swift */,
+				C99DBB691CE057FE00727DED /* Strength.swift */,
+				C99DBB6B1CE0582600727DED /* Exercise.swift */,
 				C99DBB3B1CE0549200727DED /* Main.storyboard */,
 				C99DBB3E1CE0549200727DED /* Assets.xcassets */,
 				C99DBB401CE0549200727DED /* LaunchScreen.storyboard */,
@@ -259,9 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C99DBB3A1CE0549200727DED /* SecondViewController.swift in Sources */,
+				C99DBB681CE0577E00727DED /* Endurance.swift in Sources */,
+				C99DBB3A1CE0549200727DED /* EnduranceViewController.swift in Sources */,
+				C99DBB6C1CE0582600727DED /* Exercise.swift in Sources */,
 				C99DBB361CE0549200727DED /* AppDelegate.swift in Sources */,
-				C99DBB381CE0549200727DED /* FirstViewController.swift in Sources */,
+				C99DBB661CE054C200727DED /* MyWorkout2.swift in Sources */,
+				C99DBB6A1CE057FE00727DED /* Strength.swift in Sources */,
+				C99DBB381CE0549200727DED /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
