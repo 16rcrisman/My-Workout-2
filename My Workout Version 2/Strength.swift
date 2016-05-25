@@ -10,7 +10,7 @@ import Foundation
 
 class Strength {
     
-    func generateNewAbRep() -> Exercise {
+    func generateNewAbRep(duration: String) -> Exercise {
         
         let abdominalRepetitions = ["push-ups", "crunches", "bridge lifts"]
         
@@ -20,13 +20,13 @@ class Strength {
             "bridge lifts": "Lie down on your back. Keep your arms at your sides. Lift your hips toward the ceiling. Keep your knees and thighs parallel"
         ]
         
-        let timeLong = ["10 minutes", "15 minutes", "30 minutes"]
+        //let timeLong = ["10 minutes", "15 minutes", "30 minutes"]
         
         let strengthExerciseAbRep = abdominalRepetitions[Int(arc4random_uniform(UInt32(abdominalRepetitions.count)))]
         
-        let duration = timeLong[Int(arc4random_uniform(UInt32(timeLong.count)))]
+        //let duration = timeLong[Int(arc4random_uniform(UInt32(timeLong.count)))]
         
-        let title = strengthExerciseAbRep + " for " + duration
+        let title = "Do " + duration + " " + strengthExerciseAbRep
         
         let result = Exercise(title: title, instructions: instructions[strengthExerciseAbRep]!)
         
@@ -34,7 +34,7 @@ class Strength {
         
     }
     
-    func generateNewAbTime() -> Exercise {
+    func generateNewAbTime(duration: String) -> Exercise {
         
         let abdominalTimed = ["plank", "side-plank", "hip lift"]
         
@@ -44,13 +44,13 @@ class Strength {
             "side-plank": "Lie on side on mat. Place forearm on mat under shoulder perpendicular to body. Place upper leg directly on top of lower leg and straighten knees and hips. Raise your body by straightening your hips"
         ]
         
-        let timeShort = ["10 seconds", "30 seconds", "1 minute", "1.5 minutes"]
+        //let timeShort = ["10 seconds", "30 seconds", "1 minute", "1.5 minutes"]
         
         let strengthExerciseAbTime = abdominalTimed[Int(arc4random_uniform(UInt32(abdominalTimed.count)))]
         
-        let duration = timeShort[Int(arc4random_uniform(UInt32(timeShort.count)))]
+        //let duration = timeShort[Int(arc4random_uniform(UInt32(timeShort.count)))]
         
-        let title = strengthExerciseAbTime + " for " + duration
+        let title = strengthExerciseAbTime + " for " + duration + " seconds"
         
         let result = Exercise(title: title, instructions: instructions[strengthExerciseAbTime]!)
         
@@ -58,11 +58,11 @@ class Strength {
         
     }
     
-    func generateNewHamTime() -> Exercise {
+    func generateNewHamTime(duration: String) -> Exercise {
         
         let hamstringTimed = ["wall-sit"]
         
-        let timeShort = ["10 seconds", "30 seconds", "1 minute", "1.5 minutes"]
+        //let timeShort = ["10 seconds", "30 seconds", "1 minute", "1.5 minutes"]
         
         let instructions = [
             "wall-sit": "1. Put your back straight against the wall and keep your legs at ninety degree angles"
@@ -70,9 +70,9 @@ class Strength {
         
         let strengthExerciseHamTime = hamstringTimed[Int(arc4random_uniform(UInt32(hamstringTimed.count)))]
         
-        let duration = timeShort[Int(arc4random_uniform(UInt32(timeShort.count)))]
+        //let duration = timeShort[Int(arc4random_uniform(UInt32(timeShort.count)))]
         
-        let title = strengthExerciseHamTime + " for " + duration
+        let title = "Do a " + strengthExerciseHamTime + " for " + duration + " seconds"
         
         let result = Exercise(title: title, instructions: instructions["wall-sit"]!)
         
@@ -80,11 +80,11 @@ class Strength {
         
     }
     
-    func generateNewHamReps() -> Exercise {
+    func generateNewHamReps(duration: String) -> Exercise {
         
         let hamstringRepetitions = ["squats"]
         
-        let repetitions = ["5", "10", "15", "20", "25", "30"]
+        //let repetitions = ["5", "10", "15", "20", "25", "30"]
         
         let instructions = [
             "squats": "1. Keep your back straight and your knees above your feet"
@@ -92,7 +92,7 @@ class Strength {
         
         let strengthExerciseHamReps = hamstringRepetitions[Int(arc4random_uniform(UInt32(hamstringRepetitions.count)))]
         
-        let duration = repetitions[Int(arc4random_uniform(UInt32(repetitions.count)))]
+        //let duration = repetitions[Int(arc4random_uniform(UInt32(repetitions.count)))]
         
         let title = "Do " + duration + " " + strengthExerciseHamReps
         

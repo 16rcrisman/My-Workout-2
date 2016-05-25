@@ -10,17 +10,38 @@ import Foundation
 
 class Endurance {
     
-    func generateNew() -> String {
+    func generateNewBeginner() -> String {
         
-        let enduranceExercises = ["Jog", "Walk briskly", "Climb stairs", "Bike", "Run", "Dance", "Jump rope"]
-        let timeLong = ["10 minutes", "15 minutes", "30 minutes"]
+        let enduranceExercisesBeginner = ["Jog in place", "Walk briskly", "Climb stairs", "Dance", "Jump rope"]
+        let timeLongBeginner = ["30 seconds", "1 minute", "5 minutes"]
         
-        let enduranceExercise = enduranceExercises[Int(arc4random_uniform(UInt32(enduranceExercises.count)))]
+        let enduranceExercise = enduranceExercisesBeginner[Int(arc4random_uniform(UInt32(enduranceExercisesBeginner.count)))]
         
-        let duration = timeLong[Int(arc4random_uniform(UInt32(timeLong.count)))]
+        let duration = timeLongBeginner[Int(arc4random_uniform(UInt32(timeLongBeginner.count)))]
         
         return enduranceExercise + " for " + duration
         
+    }
+    func generateNewIntermediate() -> String {
+        let enduranceExercisesIntermediate = ["Jog", "Walk briskly", "Climb stairs", "Dance", "Jump rope"]
+        let timeLongIntermediate = ["1 minute", "5 minutes", "10 minutes"]
+        
+        let enduranceExercise = enduranceExercisesIntermediate[Int(arc4random_uniform(UInt32(enduranceExercisesIntermediate.count)))]
+        
+        let duration = timeLongIntermediate[Int(arc4random_uniform(UInt32(timeLongIntermediate.count)))]
+        
+        return enduranceExercise + " for " + duration
+    }
+    func generateNewAdvanced() -> String {
+        let enduranceExercisesAdvanced = ["Run", "Jog", "Climb stairs"]
+        let timeLongBeginner = ["20 minutes", "30 minutes", "40 minutes"]
+        
+        let enduranceExercise = enduranceExercisesAdvanced[Int(arc4random_uniform(UInt32(enduranceExercisesAdvanced.count)))]
+        
+        let duration = timeLongBeginner[Int(arc4random_uniform(UInt32(timeLongBeginner.count)))]
+        
+        return enduranceExercise + " for " + duration
+
     }
     
 }

@@ -19,6 +19,11 @@
 		C99DBB681CE0577E00727DED /* Endurance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB671CE0577E00727DED /* Endurance.swift */; };
 		C99DBB6A1CE057FE00727DED /* Strength.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB691CE057FE00727DED /* Strength.swift */; };
 		C99DBB6C1CE0582600727DED /* Exercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB6B1CE0582600727DED /* Exercise.swift */; };
+		C99DBB6E1CE0F5E100727DED /* StrengthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C99DBB6D1CE0F5E100727DED /* StrengthViewController.swift */; };
+		C9E4BADF1CE24EE800C64BCD /* FlexibilityViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4BADE1CE24EE800C64BCD /* FlexibilityViewController.swift */; };
+		C9E4BAE11CE2530400C64BCD /* Flexibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4BAE01CE2530400C64BCD /* Flexibility.swift */; };
+		C9E4BAE31CE6F5EF00C64BCD /* BalanceViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4BAE21CE6F5EF00C64BCD /* BalanceViewController.swift */; };
+		C9E4BAE51CEA282D00C64BCD /* Balance.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9E4BAE41CEA282D00C64BCD /* Balance.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +62,11 @@
 		C99DBB671CE0577E00727DED /* Endurance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Endurance.swift; sourceTree = "<group>"; };
 		C99DBB691CE057FE00727DED /* Strength.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Strength.swift; sourceTree = "<group>"; };
 		C99DBB6B1CE0582600727DED /* Exercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exercise.swift; sourceTree = "<group>"; };
+		C99DBB6D1CE0F5E100727DED /* StrengthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StrengthViewController.swift; sourceTree = "<group>"; };
+		C9E4BADE1CE24EE800C64BCD /* FlexibilityViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FlexibilityViewController.swift; sourceTree = "<group>"; };
+		C9E4BAE01CE2530400C64BCD /* Flexibility.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Flexibility.swift; sourceTree = "<group>"; };
+		C9E4BAE21CE6F5EF00C64BCD /* BalanceViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceViewController.swift; sourceTree = "<group>"; };
+		C9E4BAE41CEA282D00C64BCD /* Balance.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Balance.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,8 +123,13 @@
 				C99DBB391CE0549200727DED /* EnduranceViewController.swift */,
 				C99DBB671CE0577E00727DED /* Endurance.swift */,
 				C99DBB691CE057FE00727DED /* Strength.swift */,
+				C99DBB6D1CE0F5E100727DED /* StrengthViewController.swift */,
 				C99DBB6B1CE0582600727DED /* Exercise.swift */,
 				C99DBB3B1CE0549200727DED /* Main.storyboard */,
+				C9E4BAE21CE6F5EF00C64BCD /* BalanceViewController.swift */,
+				C9E4BAE41CEA282D00C64BCD /* Balance.swift */,
+				C9E4BADE1CE24EE800C64BCD /* FlexibilityViewController.swift */,
+				C9E4BAE01CE2530400C64BCD /* Flexibility.swift */,
 				C99DBB3E1CE0549200727DED /* Assets.xcassets */,
 				C99DBB401CE0549200727DED /* LaunchScreen.storyboard */,
 				C99DBB431CE0549200727DED /* Info.plist */,
@@ -208,6 +223,7 @@
 				TargetAttributes = {
 					C99DBB311CE0549200727DED = {
 						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = M3U4BS5M5J;
 					};
 					C99DBB471CE0549300727DED = {
 						CreatedOnToolsVersion = 7.2.1;
@@ -274,9 +290,14 @@
 				C99DBB681CE0577E00727DED /* Endurance.swift in Sources */,
 				C99DBB3A1CE0549200727DED /* EnduranceViewController.swift in Sources */,
 				C99DBB6C1CE0582600727DED /* Exercise.swift in Sources */,
+				C9E4BADF1CE24EE800C64BCD /* FlexibilityViewController.swift in Sources */,
 				C99DBB361CE0549200727DED /* AppDelegate.swift in Sources */,
+				C9E4BAE11CE2530400C64BCD /* Flexibility.swift in Sources */,
 				C99DBB661CE054C200727DED /* MyWorkout2.swift in Sources */,
+				C99DBB6E1CE0F5E100727DED /* StrengthViewController.swift in Sources */,
 				C99DBB6A1CE057FE00727DED /* Strength.swift in Sources */,
+				C9E4BAE31CE6F5EF00C64BCD /* BalanceViewController.swift in Sources */,
+				C9E4BAE51CEA282D00C64BCD /* Balance.swift in Sources */,
 				C99DBB381CE0549200727DED /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,22 +439,28 @@
 		C99DBB5D1CE0549300727DED /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "My Workout Version 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Castilleja-School.My-Workout-Version-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Debug;
 		};
 		C99DBB5E1CE0549300727DED /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_APPICON_NAME = "AppIcon-2";
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = "My Workout Version 2/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Castilleja-School.My-Workout-Version-2";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 			};
 			name = Release;
 		};
@@ -504,6 +531,7 @@
 				C99DBB5E1CE0549300727DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99DBB5F1CE0549300727DED /* Build configuration list for PBXNativeTarget "My Workout Version 2Tests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +540,7 @@
 				C99DBB611CE0549300727DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		C99DBB621CE0549300727DED /* Build configuration list for PBXNativeTarget "My Workout Version 2UITests" */ = {
 			isa = XCConfigurationList;
@@ -520,6 +549,7 @@
 				C99DBB641CE0549300727DED /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
